@@ -24,12 +24,19 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+//              "scripts/test.js",
+//              "scripts/body.js",
+//              "scripts/head.js"
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+//              "scripts/test.js",
+//              "scripts/body.js",
+//              "scripts/head.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -86,7 +93,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+//              "scripts/test.js",
+//              "scripts/body.js",
+//              "scripts/head.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
